@@ -1,0 +1,22 @@
+
+.averam-second-btn{
+    display: inline;
+    text-align: center;
+    padding: 4%;
+    background: #1D1D1B;
+    color: #ffffff;
+    /* text-transform: uppercase; */
+    letter-spacing: 1px;
+
+    cursor: pointer;
+    border-radius: 100px;
+    box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.20);
+    transition: 0.3s;
+}
+
+.averam-second-btn:hover{
+    text-align: center;
+    background: #ffffff;
+    color: black;
+    box-shadow: 0 10px 25px 0 rgba(0, 0, 0, 0.25);
+}

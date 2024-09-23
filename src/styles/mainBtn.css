@@ -1,0 +1,23 @@
+
+.averam-main-btn{
+    position: absolute;
+    top: 70%;
+    text-align: center;
+    padding: 1.5%;
+    background: #FF8C00;
+    color: #fff;
+    /* text-transform: uppercase; */
+    letter-spacing: 1px;
+
+    cursor: pointer;
+    border-radius: 100px;
+    box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.20);
+    transition: 0.3s;
+}
+
+.averam-main-btn:hover{
+    text-align: center;
+    background: #e3e3e3;
+    color: black;
+    box-shadow: 0 10px 25px 0 rgba(0, 0, 0, 0.25);
+}

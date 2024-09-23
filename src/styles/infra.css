@@ -1,0 +1,37 @@
+.infra-container {
+    padding: 50px;
+    text-align: center;
+  }
+  
+  .infra-content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5px; /* Espacio entre columnas */
+  }
+  
+  .infra-item{
+    width: 80%;
+    border-radius: 25px;
+    background-color: #efefef;
+    border: 3px solid #ffffff;
+    transition: 0.3s;
+  }
+
+  .infra-item img {
+    border-radius: 25px 25px 0 0;
+    width: 100%; /* Ajusta la imagen al tamaño del contenedor */
+    height: auto; /* Mantiene la proporción de la imagen */
+  }
+  
+  .infra-item:hover {
+    border: 3px solid #FF8C00;   
+  }
+  
+  .infra-item p {
+    color: #1D1D1B;
+  }
+
+  .infra-container h2{
+    color: #1D1D1B;
+    
+  }

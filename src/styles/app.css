@@ -1,0 +1,17 @@
+.averam-home{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.averam-plans {
+    display: flex;
+    justify-content: center;
+    background: radial-gradient(
+        circle, 
+        rgba(0, 0, 0, 0.2) 0%, /* Negro muy suave en los bordes */
+        rgba(0, 0, 0, 0) 70% /* Transparente hacia el centro */
+    ),
+    #ff8c00; /* Naranja de fondo */
+    
+}

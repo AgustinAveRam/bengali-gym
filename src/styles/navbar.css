@@ -1,0 +1,34 @@
+nav ul {
+    display: flex; /* Usamos flexbox para manejar la alineación */
+    align-items: center; /* Centra los elementos verticalmente */
+    margin: 0px;
+    padding: 15px;
+    background-color: #FFFFFF;
+    box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.404);
+  }
+  
+  #navLogo {
+    margin-left: auto; /* Empuja el .headName a la izquierda */
+    width: 20%;
+  }
+  
+  nav ul li{
+    list-style-type: none; /* Elimina las viñetas */
+  }
+  
+  nav ul li a{
+    display: inline;
+    padding: 0.0rem 1rem;
+    font-family: "Bebas Neue", sans-serif;
+    letter-spacing: 2px;
+    color: #1D1D1B;
+    font-weight: 200;
+    font-size: 1rem;
+    cursor: pointer;
+    text-decoration: none;
+    transition: color 0.3s ease; /* Añade transición suave para el color */
+  }
+  
+  nav ul li a:hover {
+    color: #FF8C00;
+  }

@@ -1,0 +1,76 @@
+.plans-container {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 5%;
+}
+  
+  .plans-table {
+    width: 100%;
+    background-color: white;
+    border-collapse:collapse;
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    overflow: hidden; /* Para asegurarte de que el contenido no sobresalga */
+  }
+  
+  .plans-table th, 
+  .plans-table td {
+    padding: 15px;
+    text-align: left;
+    border-top: 1px solid #ccc;
+    
+    
+  }
+  
+  .plans-table th {
+    background-color: #f7f7f7;
+  }
+  
+  .plans-table td {
+    /* position: relative; */
+    
+  }
+  
+  .plans-table .check {
+    color: rgb(6, 214, 6);
+    font-weight: bold;
+  }
+  
+  .plans-table .cross {
+    color: rgb(100, 100, 100);
+    font-weight: bold;
+  }
+  
+  /* Borde naranja en la columna PLAN Black */
+  .plans-table th:nth-child(2),
+  .plans-table td:nth-child(2) {
+    border-right: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    
+  }
+  
+
+  
+  /* Alineación de los precios */
+  .plans-table td:last-child {
+    text-align: left;
+  }
+  
+  h2 {
+    color: #e9e9e9;
+  }
+  
+  p {
+    font-size: 1.1em;
+    color: #e7e7e7;
+  }
+  
+  #isotipoNegro{
+    position: absolute;
+    height: 5%;
+    width: auto;
+    margin-top: -1.5%;
+    margin-left: -0.5%;
+  }
