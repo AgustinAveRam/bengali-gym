@@ -1,23 +1,37 @@
-
-.averam-main-btn{
-    position: absolute;
-    top: 70%;
-    text-align: center;
-    padding: 1.5%;
-    background: #FF8C00;
-    color: #fff;
-    /* text-transform: uppercase; */
-    letter-spacing: 1px;
-
-    cursor: pointer;
-    border-radius: 100px;
-    box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.20);
-    transition: 0.3s;
+@font-face {
+    font-family: 'D-DIN';
+    src: url('../resources/fonts/D-DIN.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
 }
 
-.averam-main-btn:hover{
+.averam-main-btn {
+    position: absolute; /* Absoluto en relación al contenedor padre */
+    top: 80%; /* Centrado verticalmente */
+    left: 50%; /* Centrado horizontalmente */
+    transform: translate(-50%, -50%); /* Ajuste para centrar correctamente */
     text-align: center;
+    padding: 1% 2% 1% 2%;
+    text-decoration: none;
+    background: #FF8C00;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 100px;
+
+    box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.20);
+    transition: 0.3s;
+    z-index: 999; /* Asegura que el botón esté por encima de los demás elementos dentro del contenedor */
+}
+
+.averam-main-btn a{
+    display: block; /* Convierte el enlace en un bloque para ocupar todo el espacio del <li> */
+    font-family: 'D-DIN';
+    width: 100%;
+
+}
+
+.averam-main-btn:hover {
     background: #e3e3e3;
-    color: black;
+    color: #FF8C00;
     box-shadow: 0 10px 25px 0 rgba(0, 0, 0, 0.25);
 }

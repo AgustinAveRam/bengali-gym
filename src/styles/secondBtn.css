@@ -1,12 +1,21 @@
+@font-face {
+    font-family: 'D-DIN';
+    src: url('../resources/fonts/D-DIN.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.averam-second-btn a{
+    font-family: 'D-DIN';
+}
 
 .averam-second-btn{
     display: inline;
     text-align: center;
-    padding: 4%;
+    padding: 3% 4% 3% 4%;
     background: #1D1D1B;
     color: #ffffff;
     /* text-transform: uppercase; */
-    letter-spacing: 1px;
 
     cursor: pointer;
     border-radius: 100px;

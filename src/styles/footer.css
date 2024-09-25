@@ -1,0 +1,90 @@
+@font-face {
+  font-family: 'D-DIN';
+  src: url('../resources/fonts/D-DIN.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+.footer-container {
+    background-color: #1D1D1B; /* Fondo negro */
+    color: #fff; /* Texto blanco */
+    padding: 40px 0;
+    text-align: center;
+  
+    background-image: url('../resources/logos/isotipo-negro.png'); 
+    background-repeat: repeat; 
+    background-size: 80px 80px;  
+    background-color: #090909;
+    background-blend-mode: overlay; 
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-around;
+    max-width: 1200px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+  }
+  
+  .footer-section {
+    flex: 1;
+    margin: 20px;
+  }
+  
+  .footer-section h3 {
+    font-family: 'D-DIN';
+    margin-bottom: 20px;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #FF8C00;
+  }
+  
+  .footer-section p, .footer-section ul {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .footer-section ul {
+    list-style: none;
+  }
+  
+  .footer-section ul li {
+    margin: 10px 0;
+  }
+  
+  .footer-section ul li a {
+    font-family: 'D-DIN';
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .footer-section ul li a:hover {
+    color: #FF8C00; /* Efecto hover en naranja */
+  }
+  
+  .social-icons a {
+    color: #fff;
+    margin: 0 10px;
+    font-size: 20px;
+    transition: color 0.3s;
+  }
+  
+  .social-icons a:hover {
+    color: #FF8C00; /* Naranja al pasar el cursor */
+  }
+  
+  .footer-bottom {
+    margin-top: 40px;
+    border-top: 1px solid #333;
+    padding-top: 20px;
+    font-size: 14px;
+  }
+  
+  .footer-bottom p {
+    font-family: 'D-DIN';
+    margin: 0;
+    color: #ccc;
+  }
+  

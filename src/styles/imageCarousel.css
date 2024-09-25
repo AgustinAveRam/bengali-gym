@@ -1,39 +1,58 @@
 .carousel {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    width: 100%;
-    height: auto;
-    margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.carousel-image {
+  width: 100%;
+  height: auto;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.carousel-button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  border-radius: 100px;
+  padding: 20px;
+  cursor: pointer;
+}
+
+.carousel-button:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.carousel-button:first-of-type {
+  left: 10px;
+}
+
+.carousel-button:last-of-type {
+  right: 10px;
+}
+
+/* Animación del destello blanco */
+.flash .carousel-image {
+  animation: flash-animation 0.3s ease-in-out;
+}
+
+@keyframes flash-animation {
+  0% {
+      opacity: 1;
   }
-  
-  .carousel-image {
-    width: 100%;
-    height: auto;
+  50% {
+      opacity: 0.7;
+      background-color: white;
   }
-  
-  .carousel-button {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    background-color: rgba(0, 0, 0, 0.5);
-    color: white;
-    border: none;
-    border-radius: 100px;
-    padding: 20px;
-    cursor: pointer;
+  100% {
+      opacity: 1;
   }
-  
-  .carousel-button:hover {
-    background-color: rgba(0, 0, 0, 0.8);
-  }
-  
-  .carousel-button:first-of-type {
-    left: 10px;
-  }
-  
-  .carousel-button:last-of-type {
-    right: 10px;
-  }
-  
+}

@@ -2,21 +2,25 @@ import React from 'react';
 import '../styles/plansGrid.css';
 import { SecondBtn } from './secondBtn.jsx';
 import IsotipoNegro from '../resources/logos/isotipo-negro.png';
+import IsotipoNaranja from '../resources/logos/isotipo-naranja.png';
+
 
 export const PlansGrid = () => {
     return (
-    <div className="plans-container">
-      <h2>Elegí tu plan</h2>
+    <div className="plans-container" id='plans'>
+      <h2><span style={{ color: '#1D1D1B' }}>Elegí</span> tu Plan</h2>
       <p>Entrená con nosotros eligiendo un plan. Todos incluyen áreas de cardio, pase libre y más.</p>
 
       <table className="plans-table">
         <thead>
           <tr>
             <th></th>
-            <th>Bengal
-                <img id='isotipoNegro' src={IsotipoNegro} alt="" />
+            <th id='bengalTh'>Bengal
+                <img id='isotipos' src={IsotipoNaranja} alt="" />
             </th>
-            <th>Core</th>
+            <th>Core
+            <img id='isotipos' src={IsotipoNegro} alt="" />
+            </th>
           </tr>
         </thead>
         <tbody>

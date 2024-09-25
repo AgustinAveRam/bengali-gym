@@ -1,17 +1,27 @@
+html {
+    scroll-behavior: smooth;
+}
+
+@font-face {
+    font-family: 'D-DIN';
+    src: url('../resources/fonts/D-DIN.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 .averam-home{
     text-align: center;
     display: flex;
     justify-content: center;
+    position: relative;
 }
 
 .averam-plans {
     display: flex;
     justify-content: center;
-    background: radial-gradient(
-        circle, 
-        rgba(0, 0, 0, 0.2) 0%, /* Negro muy suave en los bordes */
-        rgba(0, 0, 0, 0) 70% /* Transparente hacia el centro */
-    ),
-    #ff8c00; /* Naranja de fondo */
+    background-color: #ff8c00;
+    margin: 2%;
+    border-radius: 25px;
+    box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.20);
     
 }
