@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/bengali-gym/static/css/main.e5b355c6.css",
+    "main.js": "/bengali-gym/static/js/main.0468d513.js",
+    "static/media/background1.jpg": "/bengali-gym/static/media/background1.505a72d25156c8668455.jpg",
+    "static/media/background2.jpg": "/bengali-gym/static/media/background2.e3b68afddac2af345f97.jpg",
+    "static/media/background3.jpg": "/bengali-gym/static/media/background3.7b0430a80bb0602498d5.jpg",
+    "static/media/D-DIN.ttf": "/bengali-gym/static/media/D-DIN.10bb68ca7a7f3a2d66ec.ttf",
+    "static/media/logo-naranja.png": "/bengali-gym/static/media/logo-naranja.67bc2ccb791a3ca8c52a.png",
+    "static/media/clase4.webp": "/bengali-gym/static/media/clase4.40aeb5f13dfd631cbcd1.webp",
+    "static/media/app.webp": "/bengali-gym/static/media/app.a789433e6463d7fd13d4.webp",
+    "static/media/clase2.webp": "/bengali-gym/static/media/clase2.0d7bf9e89fe169cc5dd2.webp",
+    "static/media/clase3.webp": "/bengali-gym/static/media/clase3.0a5f1a795a44c60a72d1.webp",
+    "static/media/infra1.webp": "/bengali-gym/static/media/infra1.9a275b9a4d80b8d069f5.webp",
+    "static/media/infra2.webp": "/bengali-gym/static/media/infra2.ef08ee6c0b9a0e01904c.webp",
+    "static/media/clase1.webp": "/bengali-gym/static/media/clase1.852dbd3f37e54b6bbc4b.webp",
+    "static/media/infra3.webp": "/bengali-gym/static/media/infra3.2361264dfc0c2cb3a492.webp",
+    "static/media/isotipo-naranja.png": "/bengali-gym/static/media/isotipo-naranja.13bb3eaa4f484e6d9045.png",
+    "static/media/isotipo-negro.png": "/bengali-gym/static/media/isotipo-negro.91e1e2d68d3025baa5dc.png",
+    "index.html": "/bengali-gym/index.html",
+    "main.e5b355c6.css.map": "/bengali-gym/static/css/main.e5b355c6.css.map",
+    "main.0468d513.js.map": "/bengali-gym/static/js/main.0468d513.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e5b355c6.css",
+    "static/js/main.0468d513.js"
+  ]
+}
